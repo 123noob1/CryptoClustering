@@ -8,7 +8,7 @@ For this module challenge, use unsupervised learning to predict if cryptocurrenc
 3) Determine the best <code>k</code> value by plotting an <code>Elbow Curve</code> chart.
 
 Answer the following question:<br/>
-<i>What is the best value for k using the original data?</i> <code>4 looks like the optimal value for k where the inertia starts decreasing linearly. However, 3 can also be tested to see the difference as well.</code>
+<b>What is the best value for k using the original data?</b> 4 looks like the optimal value for k where the inertia starts decreasing linearly. However, 3 can also be tested to see the difference as well.
 
 ### Cluster Cryptocurrencies with K-means Using the Original Scaled Data
 1) Fit the <code>K-means</code> model using the <code>k</code> determined from above.
@@ -21,18 +21,18 @@ Answer the following question:<br/>
 3) Create a new DataFrame using the PCA data.
 
 Answer the following question:<br/>
-<i>What is the total explained variance of the three principal components?</i> <code>0.895031657030984 ratio or 89.50%.</code>
+<b>What is the total explained variance of the three principal components?</b> 0.895031657030984 ratio or 89.50%.
 
 ### Find the Best Value for k Using the PCA Data
 Refer to the steps above in finding the <code>k</code> value for the original data and apply it to the PCA data.
 
 Answer the following questions:<br/>
-<i>What is the best value for k using the PCA data?</i> <code>4</code>
+<b>What is the best value for k using the PCA data?</b> 4
 
-<i>Does it differ from the best k value found using the original data?</i> <code>No, even though there are differences in the inertia between the two data, the k value of 4 is still the best optimal value to use to test with.</code>
+<b>Does it differ from the best k value found using the original data?</b> No, even though there are differences in the inertia between the two data, the k value of 4 is still the best optimal value to use to test with.
 
 ### Cluster Cryptocurrencies with K-means Using the PCA Data
 Refer to the steps above in creating the scatter plot for the predicted clusters on the original data and apply it to the PCA data.
 
 Answer the following question:<br/>
-<i>What is the impact of using fewer features to cluster the data using K-Means?</i> <code>Although both the Elbow Curves from the original and PCA data suggested the same k value (k = 4), the PCA model is better for machine learning with this dataset where the PCA's scatter plot allowed for a better clustering of the groups with each cluster being more distinct from another versus that in the original data's scatter plot.</code>
+<b>What is the impact of using fewer features to cluster the data using K-Means?</b> Although both the Elbow Curves from the original and PCA data suggested the same k value (k = 4), the PCA model is better for machine learning with this dataset where the PCA's scatter plot allowed for a better clustering of the groups with each cluster being more distinct from another versus that in the original data's scatter plot.
